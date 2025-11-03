@@ -1,0 +1,40 @@
+@import "tailwindcss";
+/* src/index.css or src/main.css */
+
+
+/* Optional global styling */
+body {
+  font-family: 'Urbanist', sans-serif;
+}
+
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.float-animation {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+.delay-0 { animation-delay: 0s; }
+.delay-1 { animation-delay: 0.4s; }
+.delay-2 { animation-delay: 0.8s; }
+.delay-3 { animation-delay: 1.2s; }
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 0.5s ease-out forwards;
+}
