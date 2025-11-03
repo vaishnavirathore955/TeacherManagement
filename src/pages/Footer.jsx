@@ -82,24 +82,24 @@ export default function Footer() {
             <li className="flex items-start gap-3 hover:text-white">
               <HiOutlineLocationMarker size={18} className="mt-1" />
               <span>
-               221,Veda Business Park Bhawarkua Square, 
+               221,xyz, 
                 <br />
-                Indore, India 452001
+                Indore, India 012345
               </span>
             </li>
             <li className="flex items-center gap-3 hover:text-white">
-              <FaPhoneAlt size={16} /> 7440440908
+              <FaPhoneAlt size={16} /> 0123456789
             </li>
             
             <li className="flex items-center gap-3 hover:text-white">
-              <FaEnvelope size={16} /> Myhometutor@gmail.com
+              <FaEnvelope size={16} /> xyz@gmail.com
             </li>
           </ul>
         </div>
       </div>
 
       <div className="text-center text-[13px] md:text-[14px] text-[#C3C3C3] mt-8">
-        © 2025 MyHomeTutorials |  All Rights Reserved
+        © 2025 Vaishnavirathore |  All Rights Reserved
       </div>
     </footer>
   );
